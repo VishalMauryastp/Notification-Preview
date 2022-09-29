@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    word-spacing: .1rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(210, 60%, 98%);
+}
+
+.notification {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification>h5 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.main {
+    border-radius: 8px;
+    padding: 19px;
+    width: 722px;
+    box-shadow: 0 0 3px darkgray;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.webber {
+    border-radius: 5px;
+    background-color: hsl(210, 60%, 98%);
+    margin-top: 15px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.webber-inner>img {
+    width: 50px;
+}
+
+h5 {
+    color: hsl(219, 14%, 63%);
+}
+
+.webber-text {
+    color: hsl(219, 14%, 63%);
+
+    Font-size: 16px;
+    margin-left: 25px;
+}
+
+strong {
+    color: black;
+}
+
+.first {
+    color: hsl(219, 12%, 42%);
+}
+
+.jacob {
+    color: hsl(219, 85%, 26%);
+}
+
+h5:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+strong:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.webber-Rizky {
+    border: 1px hsl(219, 14%, 63%);
+    color: hsl(219, 14%, 63%);
+    Font-size: 16px;
+    margin-left: 25px;
+
+}
+
+.new {
+    background-color: white;
+}
+
+.old {
+    width: 100px;
+    height: 50px;
+}
+
+.webber-4 {
+    border-radius: 4px;
+    border: 1px solid hsl(219, 14%, 63%);
+    padding: 10px;
+    color: hsl(219, 14%, 63%);
+    Font-size: 16px;
+    margin-left: 25px;
+}
+
+#new1 {
+    margin-top: 0px;
+}
+
+.webber-4:hover {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.new2 {
+    display: flex;
+    align-items: center;
+}
+
+.new3 {
+    float: right;
+}
+
+#new1 {
+    display: flex;
+    justify-content: space-between;
+}
